@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.0)
+project(PROJECT TEMPLATE)
+
+# set up conan 
+list(APPEND CONAN_PATH ${CMAKE_CURRENT_LIST_DIR}/conan)
+list(APPEND CMAKE_MODULE_PATH ${CONAN_PATH})
+list(APPEND CMAKE_PREFIX_PATH ${CONAN_PATH})
+include(${CONAN_PATH}/conan_paths.cmake)
+
+
+

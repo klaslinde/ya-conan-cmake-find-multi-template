@@ -1,0 +1,7 @@
+[generators]
+cmake_find_package_multi
+cmake_paths
+
+[build_requires]
+spdlog/[>=1.4.1]@bincrafters/stable
+eastl/[>=3.06.00]@bincrafters/stable
