@@ -1,1 +1,4 @@
-
+conan/*.lock
+conan/*.cmake
+conan/*info.txt
+conan/*.json
