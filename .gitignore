@@ -1,3 +1,4 @@
+.vs
 conan/*.lock
 conan/*.cmake
 conan/*info.txt
