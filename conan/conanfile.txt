@@ -2,6 +2,6 @@
 cmake_find_package_multi
 cmake_paths
 
-[build_requires]
+[requires]
 spdlog/[>=1.4.1]@bincrafters/stable
-eastl/[>=3.06.00]@bincrafters/stable
+eastl/[>=3.0.0]
